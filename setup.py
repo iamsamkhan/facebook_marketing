@@ -12,7 +12,7 @@ PACKAGE_NAME = 'facebook_business'
 PACKAGE_VERSION = '18.0.3'
 PACKAGE_AUTHOR = 'Facebook'
 PACKAGE_AUTHOR_EMAIL = 'smshad0001@gmail.com'
-PACKAGE_URL = 'https://github.com/iamsamkhan/facebook_marketing.git'
+PACKAGE_URL = 'https://github.com/iamsamkhan/facebook.marketing.git'
 PACKAGE_DOWNLOAD_URL = \
     'https://github.com/iamsamkhan/facebook_marketing.git/' + PACKAGE_VERSION
 PACKAGES = [
