@@ -1,0 +1,24 @@
+
+
+# This file stores the information needed to perform integration testing
+# on the Python Ads 
+
+import os
+
+app_id = '<FACEBOOK_APP_ID>'
+app_secret = '<FACEBOOK_APP_SECRET>'
+app_url = '<FACEBOOK_APP_URL>'
+business_id = '<BUSINESS_ID>'
+secondary_business_id = '<BUSINESS_ID2>'
+account_id = 'act_<AD_ACCOUNT_ID>'
+secondary_account_id = 'act_<AD_ACCOUNT_ID2>'
+page_id = '<PAGE_ID>'
+secondary_page_id = '<PAGE_ID2>'
+access_token = '<ACCESS_TOKEN>'
+instagram_actor_id = '<INSTAGRAM_ACTOR_ID>'
+
+sdk_root_dir = os.path.dirname(os.path.realpath(__file__))
+test_misc_dir = os.path.join(sdk_root_dir, 'test/misc')
+image_path = os.path.join(test_misc_dir, 'image.png')
+images_zip_path = os.path.join(test_misc_dir, 'images.zip')
+video_path = os.path.join(test_misc_dir, 'video.mp4')

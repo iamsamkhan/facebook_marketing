@@ -18,6 +18,11 @@ list_of_files=[
     f"{project_name}/logger/__init__.py",
     f"{project_name}/pipeline/__init__.py",
     f"{project_name}/utils/__init__.py",
+    f"{project_name}/video/__init__.py",
+    f"{project_name}/check/__init__.py",
+    f"{project_name}/addbootstrap/__init__.py",
+    f"{project_name}/trackrecods/__init__.py",
+    f"{project_name}/contantshare/__init__.py"
     f"config/config.yaml",
     "schema.ymal",
     "app.py",
